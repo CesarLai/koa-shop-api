@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES6",
+    "lib": ["ES2015", "ES2016", "ES2017", "ES2018", "DOM"],
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "importHelpers": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": false,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": false,
+    "noEmitOnError": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "baseUrl": ".",
+    // is not valid for node, should use module-alias
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "typeRoots": ["src/types"],
+    "types": ["node"],
+    "outDir": "build"
+  },
+  "include": ["src/**/*.ts", "./server.ts"],
+  "exclude": ["node_modules"]
+}

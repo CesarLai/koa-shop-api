@@ -1,0 +1,52 @@
+{
+  "name": "koa-blog-api",
+  "version": "0.1.0",
+  "main": "src/server.ts",
+  "description": "A blog API server sample base on Node and Koa.",
+  "author": "Cesar Lai",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --config nodemon.json src/server.ts",
+    "build": "cross-env NODE_ENV=production tsc -b ."
+  },
+  "dependencies": {
+    "core-js": "^3.16.2",
+    "cross-env": "^7.0.3",
+    "crypto-js": "^4.1.1",
+    "debug": "^4.3.2",
+    "ioredis": "^4.27.8",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-jwt": "^4.0.1",
+    "koa-morgan": "^1.0.1",
+    "koa-router": "^10.1.1",
+    "koa2-cors": "^2.0.6",
+    "mysql2": "^2.3.0",
+    "node-uuid": "^1.4.8",
+    "redis": "^3.1.2",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.0.2",
+    "@types/debug": "^4.1.7",
+    "@types/ioredis": "^4.26.7",
+    "@types/jsonwebtoken": "^8.5.5",
+    "@types/koa": "^2.13.4",
+    "@types/koa-morgan": "^1.0.5",
+    "@types/koa-router": "^7.4.4",
+    "@types/koa2-cors": "^2.0.2",
+    "@types/node": "^16.7.1",
+    "@types/redis": "^2.8.31",
+    "dotenv": "^10.0.0",
+    "dotenv-expand": "^5.1.0",
+    "module-alias": "^2.2.2",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.2.1",
+    "tslib": "^2.3.1",
+    "typescript": "^4.3.5"
+  },
+  "_moduleAliases": {
+    "@": "src"
+  }
+}

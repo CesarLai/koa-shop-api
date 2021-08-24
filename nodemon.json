@@ -1,0 +1,14 @@
+{
+  "restartable": "rs",
+  "ignore": [".git", ".svn", "node_modules/**/node_modules"],
+  "verbose": true,
+  "execMap": {
+    "ts": "ts-node -P tsconfig.json -r dotenv/config -r module-alias/register"
+  },
+  "watch": ["src", "tsconfig.json"],
+  "env": {
+    "NODE_ENV": "development",
+    "PORT": "3000"
+  },
+  "ext": "ts"
+}
