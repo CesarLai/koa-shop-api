@@ -1,8 +1,8 @@
 {
-  "name": "koa-blog-api",
+  "name": "koa-shop-api",
   "version": "0.1.0",
   "main": "src/server.ts",
-  "description": "A blog API server sample base on Node and Koa.",
+  "description": "A shop API server sample base on Node and Koa.",
   "author": "Cesar Lai",
   "license": "MIT",
   "scripts": {

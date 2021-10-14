@@ -1,3 +1,3 @@
-# koa-blog-api
+# koa-shop-api
 
-A blog API server sample base on Node and Koa.
+A shop API server sample base on Node and Koa.

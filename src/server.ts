@@ -4,7 +4,7 @@ import http from 'http'
 import debug from 'debug'
 import app from '@/app'
 
-debug('koa-blog-api')
+debug('koa-shop-api')
 const port: string | number = process.env.PORT || '3000'
 
 http
